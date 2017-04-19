@@ -1,0 +1,22 @@
+{
+  "name": "anccnet-spider",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "tomoat/okoer-anccnet",
+  "author": "tomoat<ljc6qx@163.com>",
+  "description": "为数据库中的商品爬取barcode",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "crawler": "^1.0.4",
+    "html-entities": "^1.2.0",
+    "iconv-lite": "^0.4.15",
+    "lodash": "^4.17.4",
+    "mysql2": "^1.2.0",
+    "request": "^2.81.0",
+    "sleep": "^5.1.1",
+    "superagent": "^3.5.2",
+    "superagent-charset": "^1.1.1",
+    "urlencode": "^1.1.0"
+  }
+}
