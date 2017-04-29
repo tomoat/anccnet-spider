@@ -1,0 +1,402 @@
+[
+  {
+    "title": "How does list.append() work in Python - I'm getting an unexpected result",
+    "link": "http://stackoverflow.com/questions/43693426/how-does-list-append-work-in-python-im-getting-an-unexpected-result",
+    "details": {
+      "title": "How does list.append() work in Python - I'm getting an unexpected result",
+      "question": "\r\n\r\nI've written the following code below but the output of it is not as I expected.  Does anyone know why it is behaving like this? \n\nN.B.: I know the code doesn't transpose the list correctly - I stumbled across this strange behavior whilst writing the function.\n\nmatrix = [\n     [1, 2, 3, 4],\n     [5, 6, 7, 8],\n     [9, 10, 11, 12],\n ]\n\ntransposed = []\nfor i in range(4):\n    print(\"i\", i)\n    t_list = []\n    for row in matrix:\n        print(\"row\", row)\n        t_list.append(row[i])\n        print(\"t_list**********\", t_list)\n        transposed.append(t_list)\n\n        print(\"transposed//////////////\", transposed)\n\n\nThe output I would expect from this function at the end of the first row is:\n\n[[1], [1, 5], [1, 5, 9]]\n\nInstead, it seems to output:\n\n[[1, 5, 9], [1, 5, 9], [1, 5, 9]]\n\nDoes anyone know why?\n\nThanks!\n    "
+    }
+  },
+  {
+    "title": "Asp.net 301 redirect error loop?",
+    "link": "http://stackoverflow.com/questions/43693424/asp-net-301-redirect-error-loop",
+    "details": {
+      "title": "Asp.net 301 redirect error loop?",
+      "question": "\r\n\r\nThis page is not currently active has redirected you too many times.\nThis is the code that i am using web.config\n\n<rewrite>\n<rules>\n<rule name=\"URL1\" stopProcessing=\"true\">\n\n <match url=\"^Phu-kien-vitamix\" ignoreCase=\"true\" />\n\n <action type=\"Redirect\" url=\"example.com/phu-kien-vitamix\" \n      redirectType=\"Permanent\" />\n  </rule>\n\n</rewrite>\n\n    "
+    }
+  },
+  {
+    "title": "Vehicular Clouds OMNET+VEINS+SUMO",
+    "link": "http://stackoverflow.com/questions/43693418/vehicular-clouds-omnetveinssumo",
+    "details": {
+      "title": "Vehicular Clouds OMNET+VEINS+SUMO",
+      "question": "\r\n\r\nI would like to create an infrastructure-less vehicular cloud between vehicles moving on roads to provide and use a set of services. I know that this should be done at the application layer level. However, I do not know how to do this, what are the files I should modify from veins.\nBefore I ask this question I googled it and  checked in veins FAQ, omnet google group and here in Stackoverflow.\nI appreciate your kind help.\nBest regards.\n    "
+    }
+  },
+  {
+    "title": "When a class implements two interfaces, interfaces have same method name but different return type why it wont work?",
+    "link": "http://stackoverflow.com/questions/43693417/when-a-class-implements-two-interfaces-interfaces-have-same-method-name-but-dif",
+    "details": {
+      "title": "When a class implements two interfaces, interfaces have same method name but different return type why it wont work?",
+      "question": "\r\n\r\nWhen a class implements two interfaces, interfaces have same method name but different return type why it wont work?\njava will give compiler error for this,Why cant we overload the methods in the interface_1 class? \n\nimport static java.lang.System.out; \n    interface A1{\n        int add();\n    }\n    interface A2{\n        String add();\n    }\n    public class interface_1 implements A1,A2{\n\n        public static void main(String args[]){\n        out.println(\"a\");\n        }\n\n        @Override\n        public String add() {\n            // TODO Auto-generated method stub\n            return null;\n        }\n        @Override\n        public int add() {\n            // TODO Auto-generated method stub\n            return 2;\n        }\n    }\n\n    "
+    }
+  },
+  {
+    "title": "Generating download link for youtube video with PHP but filename always saving as videoplayback.mp4",
+    "link": "http://stackoverflow.com/questions/43693412/generating-download-link-for-youtube-video-with-php-but-filename-always-saving-a",
+    "details": {
+      "title": "Generating download link for youtube video with PHP but filename always saving as videoplayback.mp4",
+      "question": "\r\n\r\nI'm tyrying to create a youtube video downloader script for education purpose. Everything is working fine and link generating but the problem is. it is alway's saving the video as videoplayback.mp4  , But i want to save video as the title of youtube video. How can i do that any idea or knowledge will you share with me please ? Thanks in Advance :) \n\nCurrently this kind of link generating with my script: \n\nhttps://r5---sn-ax8xaj5ggpxg-q5je.googlevideo.com/videoplayback?ipbits=0&signature=962BE0E0565BE4A1C47228B9915BCB8F1CFEB960.9F6BB2DB759AEA92819A21B1D7169934E2029F12&key=yt6&itag=18&ratebypass=yes&expire=1493475511&dur=866.382&pl=24&gir=yes&pcm2=yes&sparams=clen,dur,ei,gir,id,initcwndbps,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,pcm2,pl,ratebypass,requiressl,source,upn,expire&beids=[9466594]&ip=103.250.70.10&lmt=1404765005406941&upn=3jfn7T_trrk&id=o-AIgDAd5Kx005dV22eO8I0kxdhqnMlelHM82MUR6361GG&ei=V0wEWdomgd6jA_7BiQg&initcwndbps=1491250&mn=sn-ax8xaj5ggpxg-q5je&mm=31&requiressl=yes&clen=17929313&mime=video/mp4&source=youtube&ms=au&mv=m&mt=1493453844\n\n\nI'm adding title with this but it's not downloading video with the title\n    "
+    }
+  },
+  {
+    "title": "Twitter Scraping Repeated Execution Code(python)",
+    "link": "http://stackoverflow.com/questions/43693411/twitter-scraping-repeated-execution-codepython",
+    "details": {
+      "title": "Twitter Scraping Repeated Execution Code(python)",
+      "question": "\r\n\r\nThis is a Twitter scraping code that extracts tweets that contain famous keywords.\n\nI want to repeat the entire code below. \n\nI want to repeat it every 12 hours. (Or 12 hours + 10 minutes breaks)\n\nCan you give me advice on repeating phrases?\n\n(I am not an English speaking person, so my question may be poor. Thank you for your understanding.)\n\n(I also use python for the first time. Do not hate me a lot if the word choice is wrong.)\n\nimport tweepy\nimport time\nimport os\nimport json\nimport simplejson\n\nsearch_term = 'word1'\nsearch_term2= 'word2'\nsearch_term3='word3'\n\nlat = \"xxxx\"\nlon = \"xxxx\"\nradius = \"xxxx\"\nlocation = \"%s,%s,%s\" % (lat, lon, radius)\n\nAPI_key = \"xxxx\"\nAPI_secret = \"xxxx\"\nAccess_token = \"xxxx\"\nAccess_token_secret = \"xxxx\"\n\nauth = tweepy.OAuthHandler(API_key, API_secret)\nauth.set_access_token(Access_token, Access_token_secret)\napi = tweepy.API(auth)\n\nc=tweepy.Cursor(api.search,\n                 q=\"{}+OR+{}\".format(search_term, search_term2, search_term3),\n                rpp=1000,\n                geocode=location,\n                include_entities=True)\n\ndata = {}\ni = 1\nfor tweet in c.items():\n    data['text'] = tweet.text\n    print(i, \":\", data)\n    i += 1\n    time.sleep(1)\n\nwfile = open(os.getcwd()+\"/workk2.txt\", mode='w')   \ndata = {}   \ni = 0       \n\nfor tweet in c.items():\n    data['text'] = tweet.text   \n    wfile.write(data['text']+'\\n')  \n    i += 1\n\nwfile.close()\n\n    "
+    }
+  },
+  {
+    "title": "Controller is not called when navigate back",
+    "link": "http://stackoverflow.com/questions/43693406/controller-is-not-called-when-navigate-back",
+    "details": {
+      "title": "Controller is not called when navigate back",
+      "question": "\r\n\r\nI'm using angularJS and Jade for my development. I had AppController attach onto my body tag. Each time I visit a new page, the controller will be called. Currently, I have two different layouts. One has a header, navigation, and footer. The other only sidebar. When I visit the first layout and second layout, it called. But when I navigate back from the second layout to the first. The AppController is not called.\n\nindex.jade\n\nextends layout/layout\nblock content\n\n\nLayout.jade\n\nhtml\n head\n  // some metas and links\n body(ng-app=\"myApp\", ng-controller=\"AppController\")\n  div(ng-show=\"!profile\")\n   include header\n   include sidemenu\n   include mainmenu\n\n  div(ng-show=\"profile\", id=\"Profile\", style=\"display:none;\")\n   include profile/sidemenu\n\n  div(ng-cloak, ng-view)\n     block content\n\n  div(ng-show=\"!profile\")\n   include footer\n\n  div(ng-show=\"profile\", id=\"Profile\", style=\"display:none\")\n    include profile/scripts\n\n\nAppController\n\n// When navigating to /profile it will call the second layout\n// Otherwise first layout.\n\nif($location.path().split('/')[1] == \"profile\") {\n    angular.element('#Profile').css('display','block');\n    $scope.profile = true;\n}else{\n    angular.element('#Profile').css('display','none');\n    $scope.profile = false;\n}\n\n    "
+    }
+  },
+  {
+    "title": "Redshift query executed through python gives no records",
+    "link": "http://stackoverflow.com/questions/43693405/redshift-query-executed-through-python-gives-no-records",
+    "details": {
+      "title": "Redshift query executed through python gives no records",
+      "question": "\r\n\r\nI've written the following query to be executed through Python.\n\nquery=\"\"\"SELECT DISTINCT count(*) FROM PG_TABLE_DEF WHERE schemaname='master'  AND tablename LIKE '%%tmp%%'; \"\"\"\n#print(query)\n\nconn=func_redshiftconnection()\nres=conn.execute(sqlalchemy.text(query))\nres=res.fetchall()\nprint(res)                # Prints (0,)\n\n\nIt works fine in the database but is giving me 0 results when I execute it through Python and SqlAlchemy with psycopg2. \n\nIdon't understand what the problem could be. Thanks for reading\n    "
+    }
+  },
+  {
+    "title": "i want to use variable (pointer)",
+    "link": "http://stackoverflow.com/questions/43693403/i-want-to-use-variable-pointer",
+    "details": {
+      "title": "i want to use variable (pointer)",
+      "question": "\r\n\r\nwhat can i do.... \nI want to use (count, correct, think_x, think_y) in (void draw_out_rowline)\n\nvoid check_xy_data(int *count, int *correct, int *think_x, int *think_y)\n{\n\nprintf(\"(x y) input \");\nscanf(\"%d %d\", think_x, think_y);\n\n\n\nif(screen_array[*think_x][*think_y] == '*' || screen_array[*think_x][*think_y] == 'O' || screen_array[*think_x][*think_y] == 'X')\n    use_already_random();\nelse if(random_array[*think_x][*think_y] == 'C')\n{\n    be_correct_random();\n\n    screen_array[*think_x][*think_y] = '*';\n\n    *count=*count+1;\n    *correct=*correct+1;\n\n\n    for(int i=0 ; i<TOTAL_ROW_NUM ; i++)\n    {\n        for(int j=0 ; j<TOTAL_COL_NUM ; j++)\n        {\n            if(screen_array[i][j] =='*' && !(i==*think_x && j==*think_y))\n                    screen_array[i][j] = 'O';\n        }\n    }\n}\nelse\n{\n    be_incorrect_random();\n    screen_array[*think_x][*think_y] = 'X';\n    *count=*count+1;\n}\n\n\n}\n\nvoid draw_out_rowline(int num, char *str, char *str2)\n{\n\nprintf(\"┃\");\n        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HERE....!!!!!!!!!!!!!!!!!\nint str_len  = strlen(str);\nint str_len2 = strlen(str2);\n\nprintf(\"%s%s \",str,str2);\n\nfor(int i=0 ; i<num-str_len-str_len2-1 ; i++)\n\n{\n    printf(\" \");\n}\nprintf(\"┃\\n\");\n\n\n}\n\nint main(void)\n{\n\nrandomize();            \n\nint random_cor =  random(1) +2 ;                //random(6)+15\nprintf(\"3333333333333\\n\");\n\n//count=0;\n//correct=0;\n//printf(\"%d \\n\", random_cor);          \n\ndo\n{\n    int count=0, correct=0,  think_x, think_y;\n    make_intro(random_cor);\n\n    init_screen_array ();\n    init_random_array ();\n\n    make_random_num(random_cor);\n\n    do\n    {\n        check_xy_data(&count, &correct, &think_x, &think_y);\n        printf(\"\\ncorrect : %d\",correct);\n        printf(\"\\ncount : %d\", count);\n        printf(\"\\nrandom_cor : %d\",random_cor);\n\n        draw_out_rowline(TOTAL_COL_NUM, \"Input : \",(\"%d\",count));\n        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HERE....!!!!!!!!!!!!!!!!!\n        //draw_out_rowline(TOTAL_COL_NUM, \"Correct : \", \"\" );\n        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HERE....!!!!!!!!!!!!!!!!!\n        //draw_out_rowline(TOTAL_COL_NUM, \"Error : \", \"\" );\n        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HERE....!!!!!!!!!!!!!!!!!\n        //draw_out_rowline(TOTAL_COL_NUM, \"Total : \",\"\");\n        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HERE....!!!!!!!!!!!!!!!!!\n\n        draw_outline_mid();\n        make_screen_data();\n        draw_outline_end();\n    }\n    while(correct<random_cor);\n\n    printf(\"\\nplay again(Y?).\\n\");\n}\nwhile(toupper (getche()) == 'Y');\n\nreturn EXIT_SUCCESS;\n\n\n}\n\n산업포털 여기에 www.yeogie.com \n산업뉴스, 기업, 제품, 전문관, 홍보관, 부동산, 제조업, 유통업 등 산업정보전문 포털사이트\n산업포털 여기에 mc.yeogie.com \n산업뉴스, 기업, 제품, 전문관, 홍보관, 부동산, 제조업, 유통업 등 산업정보전문 포털사이트\n[안주짱] 식자재 모든 상품이 여기에~... www.anjujjang.com \n[안주짱] 식자재 모든 상품이 여기에~~\n    "
+    }
+  },
+  {
+    "title": "Storing associative array in session variable laravel",
+    "link": "http://stackoverflow.com/questions/43693402/storing-associative-array-in-session-variable-laravel",
+    "details": {
+      "title": "Storing associative array in session variable laravel",
+      "question": "\r\n\r\nActually, I am creating a shopping cart. I need to store the product_id and the quantity in the session, so that I can retrieve these into the Cart page.\n\nCurrently, I am adding values to the session variable using the push method- \n\n$request->session()->push('order.products', $request->product_id);\n\n\nBut, in this way I am not able to store the quantity. I think storing associative array into the session can solve my problem.\n\nSo, how can I do that??\n    "
+    }
+  },
+  {
+    "title": "django built in login view error messages",
+    "link": "http://stackoverflow.com/questions/43693401/django-built-in-login-view-error-messages",
+    "details": {
+      "title": "django built in login view error messages",
+      "question": "\r\n\r\nIn django built in login view, if username or password is wrong, I want make an error messages with django messages.\n\nmy template view,\n\n\r\n\r\n{% extends 'registration/base_nav.html' %}\r\n\r\n{% block content %}\r\n<div class=\"jumbotron\">\r\n  <div class=\"container\">\r\n      <div class=\"box\">\r\n        <h2>Login</h2>\r\n        <form class=\"form\" method=\"post\" action=\"{% url 'login' %}\">\r\n            {% csrf_token %}\r\n                <input type=\"text\" placeholder=\"username\" name=\"username\">\r\n                <input type=\"password\" placeholder=\"password\" name=\"password\">\r\n                <button class=\"btn btn-default full-width\">Login</button>\r\n            \t<input type=\"hidden\" name=\"next\" value=\"{{ request.path }}\" />\r\n            <a class=\"reg\" href=\"{% url 'signup' %}\"> <p> <hr />Register. </p></a>\r\n        </form>\r\n      </div>\r\n  </div>\r\n</div>\r\n{% endblock %}\r\n\r\n\r\n\n\nand error messages in base_nav\n\r\n\r\n        {% if messages %}\r\n          {% for message in messages %}\r\n            <div class=\"alert alert-{{ message.tags }}\" style = \"height:35px;padding-top:8px;width:50%;Float:left;margin-left:10%;\">\r\n                <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">×</button>\r\n                <span class=\"glyphicon glyphicon-ok\"></span>\r\n\r\n                        {{ message }}\r\n              </div>\r\n            {% endfor %}\r\n        {% endif %}\r\n\r\n\r\n\n    "
+    }
+  },
+  {
+    "title": "Trying to create a website to compare text from two URL's",
+    "link": "http://stackoverflow.com/questions/43693400/trying-to-create-a-website-to-compare-text-from-two-urls",
+    "details": {
+      "title": "Trying to create a website to compare text from two URL's",
+      "question": "\r\n\r\nI'm trying to create a website which will allow the user to input two URL's and submit them. I will then use code to compare the text from these web pages and output the result (i.e. any matching terms) into an input box on the site.\nHowever, I have never coded in PHP or Javascript, I've done as much internet research on them as I can. Many people say that PHP would be best for this and many say Javascript.\n\nWhat would you recommend and where can I start?\n\nThank you!\n    "
+    }
+  },
+  {
+    "title": "How to make nine cells side by side in collection view [Xcode] [Swift 3]",
+    "link": "http://stackoverflow.com/questions/43693398/how-to-make-nine-cells-side-by-side-in-collection-view-xcode-swift-3",
+    "details": {
+      "title": "How to make nine cells side by side in collection view [Xcode] [Swift 3]",
+      "question": "\r\n\r\nI have never worked with collection view before and although there are several tutorials I didn't find the answer on my questions.\nI use a collection view inside a ViewController, not inside a CollectionViewController.\n\nI want to make an special number of cells (in my project: nine) side by side.\nBut I want to have borders around the cells (eventually they could be have a different thickness, but that is not important).\n\nCan anybody help me?\n\nThank you.\n    "
+    }
+  },
+  {
+    "title": "How to start learning web development “beginner”?",
+    "link": "http://stackoverflow.com/questions/43693397/how-to-start-learning-web-development-beginner",
+    "details": {
+      "title": "How to start learning web development “beginner”?",
+      "question": "\r\n\r\nI want to learn web development, I'm a total beginner & I don't know anything about it. yet I took an intro to computer science course, & I want to work back-end so which of these courses is better for me? \n\nhttps://www.udemy.com/the-web-developer-bootcamp/\nhttps://www.udemy.com/the-complete-nodejs-developer-course-2/\n    "
+    }
+  },
+  {
+    "title": "Reload static content spring boot application",
+    "link": "http://stackoverflow.com/questions/43693393/reload-static-content-spring-boot-application",
+    "details": {
+      "title": "Reload static content spring boot application",
+      "question": "\r\n\r\nI am using Netbeans and I am developing my first web application using spring boot. I was keeping my htmls, js, css in \"webapp\" folder and then i refactored my project and i put all static content in /resources/static. Since then, I have to rebuild my project every time because the static content isn't reloaded. \n\nCan I easily bypass this problem if I'll use browser-sync plugin for Gulp ? \n    "
+    }
+  },
+  {
+    "title": "Python 2d array",
+    "link": "http://stackoverflow.com/questions/43693391/python-2d-array",
+    "details": {
+      "title": "Python 2d array",
+      "question": "\r\n\r\nI want to make 2D array, which is 50X75.\nComputer has to make random coordinates inside the array, about 15 to 20 coordinates. \nWhat should I do TT\nI stopped with the first step, making 50X75 2D array, so help meTT\n    "
+    }
+  },
+  {
+    "title": "Sql server 2008 how to Subtotal group",
+    "link": "http://stackoverflow.com/questions/43693387/sql-server-2008-how-to-subtotal-group",
+    "details": {
+      "title": "Sql server 2008 how to Subtotal group",
+      "question": "\r\n\r\nI am trying to add subtotal in query for the following table :\n\n**Table A:          Table B:                     Table C:**\n\nID    Name        ID     Name      SubOf       ID      Name      SubOf\n===   ======      =====  =======   =====       ======  ======    =====\n1     Name 1      1.1    SName 1   1           1.1.1   SSName 1  1.1\n2     Name 2      1.2    SName 2   2           1.1.2   SSName 2  1.1\n3     Name 3      1.3    SName 3   3           1.1.3   SSName 3  1.1\n\n**Table Transaction:**  \n\nID        Qty\n======    =======\n1.1.1     100\n1.1.2     50\n1.1.3     200\n1.1.1     100\n1.1.2     50\n1.1.3     200\n1.1.1     100\n1.1.2     50\n1.1.3     200\n1.1.1     100\n1.1.2     50\n1.1.3     200\n1.1.1     100\n\n\nI want to select my data like this :\n\nTable Result:  \n\nID        Name        Total\n======    =======     =======\n1         Name 1      1500    ->Total ID 1 \n1.1       sName 1     1500    ->Total ID 1 \n1.1.1     ssName 1     500\n1.1.2     ssName 2     200\n1.1.3     ssName 3     800\n\n\nHow can I add subtotal like the result table?? Thanks in advance.\n    "
+    }
+  },
+  {
+    "title": "Stack push and pop in assembly language for x86 processors",
+    "link": "http://stackoverflow.com/questions/43693385/stack-push-and-pop-in-assembly-language-for-x86-processors",
+    "details": {
+      "title": "Stack push and pop in assembly language for x86 processors",
+      "question": "\r\n\r\nI am learning assembly language for x86 processor, there are 2 questions I would like you to take a look for me if I answered it correctly.\n\n\nWhich statement is true about what will happen when the example code runs?\n\n1: main PROC\n2:      mov edx, 0\n3:      mov eax, 40\n4:      push eax\n5:      call Ex5Sub\n6:      INVOKE ExitProcess, 0\n7: main ENDP\n8: \n9:Ex5Sub PROC \n10:      pop eax\n11:      pop edx \n12:      push eax\n13:      ret \n14:Ex5Sub ENDP\n\n\na. EDX will equal 40 on line 6\n\nb. The program will halt with a runtime error on Line 13\n\nc. EDX will equal 0 on line 6\n\nd. The program will halt with a runtime error on Line 11\n\n\nMy Answer: (d) as the there is only one element 40 pushed into stack and there is no other element to be popped.\n\n\nIs the same as second questions posted in this link Assembly Language 2 Book on Push and Pop. I do not have enough reputation to put comment and ask about it. The person who answered to this question said (d) but I do not understand why it is (d) as from what I learned from book is that after pop eax is executed, the esp will be incremented and point to the previous value, so when it is ret, it should be 10. \n\n\nYour patience in explaining to me would be appreciated. Thank you  \n    "
+    }
+  },
+  {
+    "title": "Reference comparison transitive nature",
+    "link": "http://stackoverflow.com/questions/43693383/reference-comparison-transitive-nature",
+    "details": {
+      "title": "Reference comparison transitive nature",
+      "question": "\r\n\r\nFrom a program below my understanding towards reference operator is changed.\n\nFollowing program violates the rule of maths, i.e.\nif  a==b and b==c then a==c\n\n   public class Test{\n    public static void main(String[] args) throws Exception {\n\n        long x = Long.MAX_VALUE;\n        double y = (double) Long.MAX_VALUE;\n        long z = Long.MAX_VALUE - 1;\n\n        System.out.println(x);//====== 9223372036854775807;\n        System.out.println(y);//=======9.223372036854776E18\n        System.out.println(z);//=======9223372036854775806\n        System.out.print((x == y) + \" \");//=====True\n        System.out.print((y == z) + \" \");//======True\n        System.out.println(x == z);//=============False\n    }\n}\n\n\nCan some one tell me why this transitive nature of == has been violated here ?\n    "
+    }
+  },
+  {
+    "title": "which Technology Stack is currently used in leading Software companies for web app and WHY? [on hold]",
+    "link": "http://stackoverflow.com/questions/43693379/which-technology-stack-is-currently-used-in-leading-software-companies-for-web-a",
+    "details": {
+      "title": "which Technology Stack is currently used in leading Software companies for web app and WHY? [on hold]",
+      "question": "\r\n\r\nwhat is the trend in Software companies now? \nWhich Technology does most Software companies use currently? \nDoes it depend on the need and backward-compatibility to support existing apps? \nMy team is currently planning to shift from java to C# for a various reasons. Is there a better alternative and WHY? \nThey are also considering ReactJS for front end. How good is that? Is there any better alternative for it? \nEase of development, Ease of maintenance, Extensibility, Dynamic web development, Scalability, Security are some of the factors i'd like to consider.\n    "
+    }
+  },
+  {
+    "title": "Jquery .on event listener on refresh",
+    "link": "http://stackoverflow.com/questions/43693377/jquery-on-event-listener-on-refresh",
+    "details": {
+      "title": "Jquery .on event listener on refresh",
+      "question": "\r\n\r\nDo i need to call the .unbind() jquery function in the DOM ready function before reattaching the .on listener or are the event listeners re-assigned on page refresh ?\n    "
+    }
+  },
+  {
+    "title": "Excel: How to transfer letters to numbers?",
+    "link": "http://stackoverflow.com/questions/43693376/excel-how-to-transfer-letters-to-numbers",
+    "details": {
+      "title": "Excel: How to transfer letters to numbers?",
+      "question": "\r\n\r\nI have 1200 names in Column A. 18 names are the same. I want to code these names from 1 till 18. Assume the Excel file is: \n\nName    Code\nA       1\nF       2\nC       3\nD       4\nE       5\nA       1\nF       6\nD       4\n.       .\n.       .\n.       .\n\n\nIs it possible to code the names as 1, 2, 3...? Names are proper, not A, F,... I gave it as an example\nMany thanks for your help \n    "
+    }
+  },
+  {
+    "title": "Scheduling message per RSU not for while world",
+    "link": "http://stackoverflow.com/questions/43693375/scheduling-message-per-rsu-not-for-while-world",
+    "details": {
+      "title": "Scheduling message per RSU not for while world",
+      "question": "\r\n\r\nIn the present Veins code, each CAR or RSU in the world polls and then 1 car or rsu sends the message. I want to do this scheduling per RSU not for whole world. How can i do that? \n    "
+    }
+  },
+  {
+    "title": "Does Chrome,Firefox,etc specify max-device-width to mobile?",
+    "link": "http://stackoverflow.com/questions/43693372/does-chrome-firefox-etc-specify-max-device-width-to-mobile",
+    "details": {
+      "title": "Does Chrome,Firefox,etc specify max-device-width to mobile?",
+      "question": "\r\n\r\nI add a media query to my html file\n\n<link type=\"text/css\" rel=\"stylesheet\" href=\"xxx-mobile.css\" media=\"screen and (max-device-width:360px)\">\n\n\nthen I adjust the width to find the point the css will have effect.\n\nThe browsers I tested in my mobile are:\n\n\nchrome;\nfirefox;\nopera;\nandroid webkit browser;\n\n\nResults are as follows:\n\n\nchrome, firefox and opera change style at the point max-device-width:360px;\nandroid webkit browser change style at the point max-device-width:1080px(my screen resolution is 1080*1920);\n\n\nI want to know chrome whether specify mobile max-device-width or not and standard of the max-device-width sepecified.\n    "
+    }
+  },
+  {
+    "title": "how to intigrate unite Gallery",
+    "link": "http://stackoverflow.com/questions/43693370/how-to-intigrate-unite-gallery",
+    "details": {
+      "title": "how to intigrate unite Gallery",
+      "question": "\r\n\r\nhow to intigrate unite Gallery in asp.net c# with database\n\nhttp://unitegallery.net/index.php?page=examples-api\n    "
+    }
+  },
+  {
+    "title": "How to resolve master ip got disassociated issue?",
+    "link": "http://stackoverflow.com/questions/43693369/how-to-resolve-master-ip-got-disassociated-issue",
+    "details": {
+      "title": "How to resolve master ip got disassociated issue?",
+      "question": "\r\n\r\n7/04/29 11:39:36 INFO Master: Launching driver driver-20170429113936-0000 on worker worker-20170429113809-192.168.5.197-7078\n17/04/29 11:39:42 INFO Master: 192.168.5.5:35660 got disassociated, removing it.\n17/04/29 11:39:42 INFO Master: 192.168.5.5:35658 got disassociated, removing it.\n17/04/29 11:39:42 INFO Master: 192.168.5.5:39706 got disassociated, removing it.\n\n\nI got most of the time when i start spark standalone cluster. What will be reason of master IP got disassociated  always and How to resolve this ?\n    "
+    }
+  },
+  {
+    "title": "django : ContentType.objects.get_for_model(instance.__class__) giving wrong class name",
+    "link": "http://stackoverflow.com/questions/43693368/django-contenttype-objects-get-for-modelinstance-class-giving-wrong-clas",
+    "details": {
+      "title": "django : ContentType.objects.get_for_model(instance.__class__) giving wrong class name",
+      "question": "\r\n\r\ni have a model named classPost and when i use\n\nc = ContentType.objects.get_for_model(instance.__class__)\n\nit gives me output:\n\n\n  class post\n\n\nand when i try to get ContentType object of model using\n\nContentType.objects.get(model=c)\n\nit gives me error:\n\n\n  ContentType matching query does not exist.\n\n\nwhy it is giving me this error and why get_for_model() gives me wrong class name.\n\nmodels.py:\n\nclass classPost(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, default=1)\n    title = models.CharField(max_length=120)\n    slug = models.SlugField(unique=True, blank = True)\n    content = models.TextField()\n    choice = (\n        ('post','post'),\n        ('anouncement','anouncement'),\n        ('question', 'question')\n        )\n    post_type = models.CharField(choices = choice, default = 'post', max_length = 12)\n    classroom = models.ForeignKey(Classroom)\n    updated = models.DateTimeField(auto_now=True, auto_now_add=False)\n    timestamp = models.DateTimeField(auto_now=False, auto_now_add=True)\n\n\n\n    def __unicode__(self):\n        return self.title\n\n    def __str__(self):\n        return self.title\n\n    @property\n    def comments(self):\n        instance = self\n        qs = Comment.objects.filter_by_instance(instance)\n        return qs\n\n    @property\n    def get_content_type(self):\n        instance = self\n        content_type = ContentType.objects.get_for_model(instance.__class__)\n        return content_type\n\n\nviews.py where i am using ContentType.objects.get() method.\n\ninitial_data = {\n            \"content_type\": instance.get_content_type,\n            \"object_id\": instance.id\n    }\n    print(initial_data)\n    form = CommentForm(request.POST or None, initial= initial_data)\n    if form.is_valid() and request.user.is_authenticated():\n        c_type = form.cleaned_data.get(\"content_type\")\n        print('c_type : ',c_type)\n        content_type = ContentType.objects.get(model=c_type)\n        print(content_type)\n        obj_id = form.cleaned_data.get('object_id')\n        content_data = form.cleaned_data.get(\"content\")\n        parent_obj = None\n        try:\n            parent_id = int(request.POST.get(\"parent_id\"))\n        except:\n            parent_id = None\n\n    "
+    }
+  },
+  {
+    "title": "Growing average Levenshtein distances despite decreasing variance in GA",
+    "link": "http://stackoverflow.com/questions/43693366/growing-average-levenshtein-distances-despite-decreasing-variance-in-ga",
+    "details": {
+      "title": "Growing average Levenshtein distances despite decreasing variance in GA",
+      "question": "\r\n\r\nWhat could be a possible explanation for growing average Levenshtein distances among chromosomes of candidate solutions in a standard genetic algorithm process, despite decreasing standard deviation (in terms of the fitness function)? \n\nI'm thinking this has a deeper relationship with phenotype-genotype interaction.\n    "
+    }
+  },
+  {
+    "title": "How to make automatic browsing to images from database ?",
+    "link": "http://stackoverflow.com/questions/43693363/how-to-make-automatic-browsing-to-images-from-database",
+    "details": {
+      "title": "How to make automatic browsing to images from database ?",
+      "question": "\r\n\r\nI work in MVC 5 c# in visual studio 2015 web applications ASP.NET\n\nI have table pictures in SQL server 2012 have two fields\n\nID\n\nImage\n\nID have number of image inserted like 1,2,3,4\n\nImage field store picture added\n\nwhat i need actually display images found in table pictures in database from last image inserted to first in page\n\nand browsing between every image and another 1 second automatically without \n\nusing button or scroll .\n\nSuppose i have 4 images in database in table pictures\n\nAfter page open picture 4 display after 1 second picture 3 display after 1 \n\nsecond picture 2 display after 1 second picture 1 display .\n\nHow i do that ? \n    "
+    }
+  },
+  {
+    "title": "Cloudant create database API",
+    "link": "http://stackoverflow.com/questions/43693362/cloudant-create-database-api",
+    "details": {
+      "title": "Cloudant create database API",
+      "question": "\r\n\r\nNeed to create new cloudant database from angularJS but receive following error.\n\nerror:\"forbidden\"\nmessage:\"server_admin access is required for this request\"\nname:\"forbidden\"\nreason:\"server_admin access is required for this request\"\nstatus:403\n\nTried\n1. var db = new PouchDB(https://$USERNAME.cloudant.com/$DATABASE, {auth: {username: admin username, password: admin password}});\n\n\nvar db = new PouchDB(https://username:password@$USERNAME.cloudant.com/$DATABASE);\n\n\nReceive above error while run db.put(doc);\n\nAnyone can help to advise what's wrong?\n    "
+    }
+  },
+  {
+    "title": "Golang convert float64 to byte array",
+    "link": "http://stackoverflow.com/questions/43693360/golang-convert-float64-to-byte-array",
+    "details": {
+      "title": "Golang convert float64 to byte array",
+      "question": "\r\n\r\nHow can I convert a float64 variable to byte array?\n\nvar f float64 = 12.666512\nvar result []byte = float64ToByte(f);\nfmt.Printf(\"result:%f\",result)\n\n\nFor the sake of clarity how should I implement float64ToByte function in the following playground?\n\nhttps://play.golang.org/p/LevxCDd7mK\n    "
+    }
+  },
+  {
+    "title": "If TableView has no results show “no results” label (2 counts)",
+    "link": "http://stackoverflow.com/questions/43693355/if-tableview-has-no-results-show-no-results-label-2-counts",
+    "details": {
+      "title": "If TableView has no results show “no results” label (2 counts)",
+      "question": "\r\n\r\nIm trying to complete my search feature and this is the only thing i have left missing.Basically what i want is when my searchTableView doesn't have any results a label will show up and say \"no results\" just like WhatsApp :\n\n\n\nI know how to set up the label and make it show up correctly if there are no results with one count needed, but i don't know how to set the label to isHidden correctly when there are no results with 2 counts that needs to be equal to 0. \n\nlet me explain :\n\nnumberOfRowsInSection:\n\noverride func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {\n\n        if tableView == self.tableView {\n\n        return self.names.count\n\n        } else {\n            return self.filteredUsers.count\n        }\n\n    }\n\n\nI need Both self.names.count & self.filteredUsers.count to be equal to 0 and than i will write isHidden = false\n\nLabel i Have:\n\nBarsSearchNoResultsLabel = UILabel(frame: CGRect(x: 60, y: 70, width: 200, height: 50))\n        BarsSearchNoResultsLabel.textAlignment = .center\n        BarsSearchNoResultsLabel.text = \"אין תוצאות\"\n        BarsSearchNoResultsLabel.font = UIFont(name:\"HelveticaNeue-Bold\", size: 25.0)\n        BarsSearchNoResultsLabel.textColor = UIColor.lightGray\n        self.view.addSubview(BarsSearchNoResultsLabel)\n\n\nSo how do i make this code to count both filteredUseres & names ?:\n\n        if self.names.count == 0\n    //Needs to count self.filteredUsers.count == 0 as well ! \n    {\n                    self.BarsSearchNoResultsLabel.isHidden = false\n                    return 0\n                } else {\n                    self.BarsSearchNoResultsLabel.isHidden = true\n                    return self.names.count;\n//Needs to return both names & filteredUsers!\n                }\n            }\n\n\nIt will be really great if you could help me .\n\nThanks for your help ! \n    "
+    }
+  },
+  {
+    "title": "Python Turtle: Starting Countdown gets stuck",
+    "link": "http://stackoverflow.com/questions/43693353/python-turtle-starting-countdown-gets-stuck",
+    "details": {
+      "title": "Python Turtle: Starting Countdown gets stuck",
+      "question": "\r\n\r\nI am making a dodging game in which the turtle (shaped like a turtle) has to avoid other turtles (shaped like crocodiles). I got the game working but am trying to add in a countdown before the game starts which goes 3,2,1,GO!\n\nMy thinking is that since the countdown_number variable I have goes 3, 2, 1, and then GO!, I can get it to come before the rest of the game by having everything else dependent on the value of the countdown_number being \"GO!\".\n\nRight now, however, when I start the program it gets stuck on 3 and after the update interval starts over again instead of continuing through 2, 1, and GO! so the game cannot start.\n\nI've seen a lot of questions on Stack Overflow that have to do with running timers and things concurrent to the game but I need this to occur before the game starts.\n\nimport turtle\nimport random\nimport pygame\n\nwindow_height = 600\nwindow_width = 600\n\nupdate_interval = 25\n\ncountdown_number = 3\n\nriver_width = 400\nminimum_river_width = 200\n\nborder_height = 600\n\nriver_width_update = 0.5\n\nsafe_distance_from_border = border_height / 2 + 3\n\nnumber_of_enemies = 10\nenemies = []\nenemy_speeds = []\nenemy_width = 100\nenemy_height = 40\nenemy_speed_min, enemy_speed_max = 10, 20\n\nsafe_distance_from_enemy = 15\n\ndef startgame():\n    global countdown_number\n    if countdown_number >= 1:\n        turtle.home()\n        turtle.left(270)\n        turtle.clear()\n        turtle.speed(0)\n        for _ in range(0,100,5):\n            turtle.forward(1)\n            turtle.color(\"grey\"+str(_))\n            turtle.write(countdown_number, align=\"center\", font=(\"Arial\", 200, \"normal\"))\n    if countdown_number == 0:\n        countdown_number = \"GO!\"\n        turtle.home()\n        turtle.left(270)\n        turtle.clear()\n        turtle.speed(0)\n        for _ in range(0,100,5):\n            turtle.forward(1)\n            turtle.color(\"grey\"+str(_))\n            turtle.write(countdown_number, align=\"center\", font=(\"Arial\", 200, \"normal\"))\n        turtle.clear()\n\n    #print(number)\n\ndef gameover(msg):\n    print(msg) # Probably comment this out later\n    turtle.home()\n    turtle.write(msg, align=\"center\", font=(\"Arial\", 24, \"normal\"))\n\ndef moveplayerturtle(x, y):\n    if x > -window_width / 2 and x < window_width / 2:\n        turtle.goto(x, y)\n\ndef updatescreen():\n\n    global river_width\n    global countdown_number\n    if countdown_number != \"GO!\":\n        startgame()\n\n    if countdown_number == \"GO!\":\n\n        if upper_river_border.ycor() >= window_height-200:\n            upper_river_border.sety(upper_river_border.ycor() - river_width_update)\n\n        if lower_river_border.ycor() <= -window_height+200:\n            lower_river_border.sety(lower_river_border.ycor() + river_width_update)\n\n        if upper_river_border.ycor() - turtle.ycor() < safe_distance_from_border:\n\n            gameover(\"Game over!\")\n\n            return\n        if turtle.ycor() - lower_river_border.ycor() < safe_distance_from_border:\n\n            gameover(\"Game over!\")\n\n            return\n\n        for i in range(number_of_enemies):\n\n            enemies[i].forward(enemy_speeds[i])\n\n            if enemies[i].xcor() > (window_width+enemy_width)/2:\n                x = -(window_width+enemy_width)/2\n                y = int(turtle.ycor())\n                enemies[i].goto(x, y)\n                s=1\n                enemy_speeds[i]=int(random.randrange(10+s, 20+s))\n\n            if turtle.distance(enemies[i]) < safe_distance_from_enemy:\n                gameover(\"You lose!\")\n                return\n\n    turtle.ontimer(updatescreen, update_interval)\n    turtle.update()\n\nturtle.setup(window_width, window_height) # Set the window size\nturtle.bgcolor(\"DarkBlue\")\n\nturtle.tracer(False)\n\nupper_river_border = turtle.Turtle()\nupper_river_border.up()\nlower_river_border = turtle.Turtle()\nlower_river_border.up()\n\nupper_river_border.shape(\"square\")\nlower_river_border.shape(\"square\")\n\nupper_river_border.color(\"DarkOrange4\")\nlower_river_border.color(\"DarkOrange4\")\n\nupper_river_border.shapesize(30, 40)\nlower_river_border.shapesize(30, 40)\n\nupper_river_border.sety((border_height + river_width) / 2)\nlower_river_border.sety(-(border_height + river_width) / 2)\n\nturtle.addshape(\"crocodile.gif\")\n\nfor _ in range(number_of_enemies):\n\n    enemy = turtle.Turtle()\n\n    turtle.addshape(\"crocodile.gif\")\n    enemy.shape(\"crocodile.gif\")\n    enemy.up()\n    x = -(window_width + enemy_width) / 2\n    y = random.randint(-(river_width-enemy_height)/2, (river_width-enemy_height)/2)\n    enemy.goto(x, y)\n\n    enemies.append(enemy)\n\n    enemy_speeds.append(random.randint(enemy_speed_min, enemy_speed_max))\n\nturtle.shape(\"turtle\")\nturtle.left(180)\nturtle.color(\"GreenYellow\")\nturtle.up()\n\nturtle.ondrag(moveplayerturtle)\n\nturtle.ontimer(updatescreen, update_interval)\n\nturtle.done()\n\n\nI've gotten the countdown to work perfectly fine on its own when I've written it as it's own program so I think it must just have to do with transitioning from the countdown sequence to the game loop itself that's causing the problem.\n\nAny help would be appreciated.\n    "
+    }
+  },
+  {
+    "title": "Which course should I choose for better future in UK? [on hold]",
+    "link": "http://stackoverflow.com/questions/43693350/which-course-should-i-choose-for-better-future-in-uk",
+    "details": {
+      "title": "Which course should I choose for better future in UK? [on hold]",
+      "question": "\r\n\r\nI am a Materials Engineering Graduate from BUET. I also did MBA in Management. I have been working in a Bank for last 7 years in Bangladesh and still continuing. For further progression of my career (in UK) I want to pursue higher degree in UK. I am not sure about which course should I choose. Should I go for engineering degree or business degree? Also MSc or another MBA?\n\nP.S. Don't talk about visa please as i got it sorted. Thanks\n    "
+    }
+  },
+  {
+    "title": "How do I dedicate/allocate a custom memory location so that I can edit that location in c++",
+    "link": "http://stackoverflow.com/questions/43693349/how-do-i-dedicate-allocate-a-custom-memory-location-so-that-i-can-edit-that-loca",
+    "details": {
+      "title": "How do I dedicate/allocate a custom memory location so that I can edit that location in c++",
+      "question": "\r\n\r\nSo I'm trying to edit a location in memory that it contains a bunch of data (create a thread using the data I put in that location). But in order for the program to run, it needs to be placed at that specific location.\n\nfor (int i = 0; i < dumpSize; i++) *(int*)(0x91F40000 + i) = dumpData[i];\n\n\nAs you can see, 0x91F40000 is the location I want the data at, but because the memory location isn't defined, it doesn't actually change that location's memory. \nHow would I make it so I can edit this region?\n    "
+    }
+  },
+  {
+    "title": "Creating AutoFormatRule filter",
+    "link": "http://stackoverflow.com/questions/43693348/creating-autoformatrule-filter",
+    "details": {
+      "title": "Creating AutoFormatRule filter",
+      "question": "\r\n\r\nI'm trying to change the font of an email subject (just the title displayed in the folder) and I don't know how to define the AutoFormatRule.Filter property.\nLet's say I want to define a rule applying to any message with a certain string inside its body.\nOr, if you have a better idea for changing the font of a subject, I'm open to suggestion.\nTrying to change the font in this box\n    "
+    }
+  },
+  {
+    "title": "Get bitrate os audio item swift",
+    "link": "http://stackoverflow.com/questions/43693345/get-bitrate-os-audio-item-swift",
+    "details": {
+      "title": "Get bitrate os audio item swift",
+      "question": "\r\n\r\nI need to get an Audio Item (remote) bitrate - 320, 128, etc. Found an answer - How to get an MP3 bit rate in SWIFT, but it doesn't work correctly. I can get a size of item, but my bitrate looks weird - like 154, 540.34, etc.\nHelp pls!\n    "
+    }
+  },
+  {
+    "title": "How can i rotate the character head when moving the mouse cursor around?",
+    "link": "http://stackoverflow.com/questions/43693344/how-can-i-rotate-the-character-head-when-moving-the-mouse-cursor-around",
+    "details": {
+      "title": "How can i rotate the character head when moving the mouse cursor around?",
+      "question": "\r\n\r\nBut the player should look around with the head i think in the world space. For example if i move the mouse cursor around and it's pointing on a mountain the player should look at the mountain. But the main goal is to rotate the head whe just moving the mouse around in the game window while the game is running.\n\nMaybe i also don't need so many variables of rotating, speed, x,y ? Maybe i can use less variables for all of that. I want to keep the other parts in the script and to add the head part.\n\nusing UnityEngine;\nusing System.Collections;\n\n[AddComponentMenu(\"Camera-Control/Mouse Orbit with zoom\")]\npublic class MouseOrbitImproved : MonoBehaviour\n{\n    public Transform target;\n    public float distance = 5.0f;\n    public float xSpeed = 120.0f;\n    public float ySpeed = 120.0f;\n\n    public float yMinLimit = 3.0f;//-20f;\n    public float yMaxLimit = 80f;\n\n    public float distanceMin = .5f;\n    public float distanceMax = 15f;\n\n    public Transform boneToRotate;\n    int speed;\n    float friction;\n    float lerpSpeed;\n    private float xDeg;\n    private float yDeg;\n    private Quaternion fromRotation;\n    private Quaternion toRotation;\n\n    private Rigidbody rigidbody;\n\n    float x = 0.0f;\n    float y = 0.0f;\n\n    public float rotationSpeed = 5f;\n\n    // Use this for initialization\n    void Start()\n    {\n        speed = 3;\n        friction = 3f;\n        lerpSpeed = 3f;\n\n        Vector3 angles = transform.eulerAngles;\n        x = angles.y;\n        y = angles.x;\n\n        rigidbody = GetComponent<Rigidbody>();\n\n        // Make the rigid body not change rotation\n        if (rigidbody != null)\n        {\n            rigidbody.freezeRotation = true;\n        }\n    }\n\n    void LateUpdate()\n    {\n        if (Input.GetAxis(\"Mouse X\") != 0 || Input.GetAxis(\"Mouse Y\") != 0)\n        {\n            xDeg -= Input.GetAxis(\"Mouse X\") * speed * friction;\n            yDeg += Input.GetAxis(\"Mouse Y\") * speed * friction;\n            fromRotation = boneToRotate.rotation;\n            toRotation = Quaternion.Euler(yDeg, xDeg, 0);\n            boneToRotate.rotation = Quaternion.Lerp(fromRotation, toRotation, Time.deltaTime * lerpSpeed);\n\n            Debug.Log(\"Mouse Freedom\");\n        }\n\n        if (target && Input.GetMouseButton(1))\n        {\n            x += Input.GetAxis(\"Mouse X\") * xSpeed * distance * 0.02f;\n            y -= Input.GetAxis(\"Mouse Y\") * ySpeed * 0.02f;\n\n            y = ClampAngle(y, yMinLimit, yMaxLimit);\n\n            Quaternion rotation = Quaternion.Euler(y, x, 0);\n\n            distance = Mathf.Clamp(distance - Input.GetAxis(\"Mouse ScrollWheel\") * 5, distanceMin, distanceMax);\n\n            RaycastHit hit;\n            if (Physics.Linecast(target.position, transform.position, out hit))\n            {\n                distance -= hit.distance;\n            }\n            Vector3 negDistance = new Vector3(0.0f, 0.0f, -distance);\n            Vector3 position = rotation * negDistance + target.position;\n\n            transform.rotation = rotation;\n            transform.position = position;\n\n            transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, rotationSpeed);\n\n            if (target != null)\n            {\n                target.rotation = Quaternion.RotateTowards(transform.rotation, rotation, rotationSpeed);\n            }\n        }\n    }\n\n    public static float ClampAngle(float angle, float min, float max)\n    {\n        if (angle < -360F)\n            angle += 360F;\n        if (angle > 360F)\n            angle -= 360F;\n        return Mathf.Clamp(angle, min, max);\n    }\n}\n\n\nThe script is attached to the Main Camera.\nIn the boneToRotate variable i dragged the EthanHead from the ThirdPersonController.\n\nThe part i just added now for rotating the head is:\nIn the top:\n\npublic Transform boneToRotate;\nint speed;\nfloat friction;\nfloat lerpSpeed;\nprivate float xDeg;\nprivate float yDeg;\nprivate Quaternion fromRotation;\nprivate Quaternion toRotation;\n\n\nIn Start:\n\nspeed = 3;\nfriction = 3f;\nlerpSpeed = 3f;\n\n\nIn Update:\n\nif (Input.GetAxis(\"Mouse X\") != 0 || Input.GetAxis(\"Mouse Y\") != 0)\n            {\n                xDeg -= Input.GetAxis(\"Mouse X\") * speed * friction;\n                yDeg += Input.GetAxis(\"Mouse Y\") * speed * friction;\n                fromRotation = boneToRotate.rotation;\n                toRotation = Quaternion.Euler(yDeg, xDeg, 0);\n                boneToRotate.rotation = Quaternion.Lerp(fromRotation, toRotation, Time.deltaTime * lerpSpeed);\n\n                Debug.Log(\"Mouse Freedom\");\n            }\n\n\nBut it's not working at all. The head is not rotating at all with the mouse cursor.\n    "
+    }
+  },
+  {
+    "title": "Rails | if format does not match redirect to 404",
+    "link": "http://stackoverflow.com/questions/43693342/rails-if-format-does-not-match-redirect-to-404",
+    "details": {
+      "title": "Rails | if format does not match redirect to 404",
+      "question": "\r\n\r\nI have a rails app and contact page. So the link is www.mypage.com/contact. When some one tries /contact.php or /contact.aspx i get 500 error. Unknown format.\n\nIs there a way to redirect them to 404 page?\n    "
+    }
+  },
+  {
+    "title": "jQuery validation - Cannot read property 'settings' of undefined on dynamic forms",
+    "link": "http://stackoverflow.com/questions/43693341/jquery-validation-cannot-read-property-settings-of-undefined-on-dynamic-form",
+    "details": {
+      "title": "jQuery validation - Cannot read property 'settings' of undefined on dynamic forms",
+      "question": "\r\n\r\nI am using Wordpress, but this question is actually a Jquery validation.\n\nHTML section ( There is repetition of this section with different ids  ) \n\n<div class=\"product-col\" id=\"row-4016\">\n  <div class=\"sync-prod-image\"><img src=\"image1.jpg\"></div>\n  <div class=\"product-meta\">\n    <div class=\"poster-table\" border=\"0\" width=\"100%\">\n      <form action=\"\" id=\"meta-form-43825\" class=\"poster-meta-form\" novalidate=\"novalidate\">\n        <div class=\"size-11x17 poster-tr meta-4018 meta-row-wrap\">\n          <div width=\"15%\"><span>11x17<input type=\"hidden\" name=\"base_amount\" id=\"base_amount-4018\" value=\"8\"></span></div>\n          <input type=\"hidden\" value=\"43826\" class=\"meta_price_id\" id=\"poster_price-4018\" name=\"poster_price-4018\">\n          <div width=\"15%\"><span>8.00<input type=\"hidden\" class=\"base-price\" name=\"base_price\" id=\"base_price-4018\" value=\"8.00\"></span></div>\n          <div width=\"15%\"><span><input type=\"number\" class=\"size-sale-price tooltipstered\" id=\"reg_price_4018\" name=\"reg_price_4018\" value=\"9.00\" min=\"8\" step=\"0.01\" target=\"4018\"></span></div>\n          <div width=\"15%\">\n            <span id=\"profit-4018\" class=\"profit-tag\">1.00</span>\n            <input type=\"hidden\" name=\"meta_target\" id=\"meta_target-4018\" value=\"43827\">\n          </div>\n          <div width=\"40%\">\n            <input type=\"hidden\" name=\"meta_price_id\" value=\"43826\">\n            <input type=\"hidden\" name=\"regular_price_id\" value=\"43827\">\n            <input type=\"hidden\" name=\"sale_price\" value=\"9\">\n            <input type=\"hidden\" name=\"base_price\" value=\"8\">\n            <input type=\"submit\" id=\"meta-submit-43827\" name=\"meta-submit-43827\" value=\"Update\">\n            <img src=\"bx_loader.gif\" alt=\"Processing Poster Update\" id=\"loading-4018\" class=\"loading\">\n            <img src=\"success.png\" alt=\"Poster Update Success\" id=\"success-4018\" class=\"success\">\n            <img src=\"error.png\" alt=\"Poster Update Success\" id=\"error-4018\" class=\"error\">\n          </div>\n        </div>\n      </form>\n      <form action=\"\" id=\"meta-form-43832\" class=\"poster-meta-form\" novalidate=\"novalidate\">\n        <div class=\"size-16x24 poster-tr meta-4019 meta-row-wrap\">\n          <div width=\"15%\"><span>16x24<input type=\"hidden\" name=\"base_amount\" id=\"base_amount-4019\" value=\"9\"></span></div>\n          <input type=\"hidden\" value=\"43833\" class=\"meta_price_id\" id=\"poster_price-4019\" name=\"poster_price-4019\">\n          <div width=\"15%\"><span>9.00<input type=\"hidden\" class=\"base-price\" name=\"base_price\" id=\"base_price-4019\" value=\"9.00\"></span></div>\n          <div width=\"15%\"><span><input type=\"number\" class=\"size-sale-price tooltipstered\" id=\"reg_price_4019\" name=\"reg_price_4019\" value=\"9.00\" min=\"9\" step=\"0.01\" target=\"4019\"></span></div>\n          <div width=\"15%\">\n            <span id=\"profit-4019\" class=\"profit-tag\">0.00</span>\n            <input type=\"hidden\" name=\"meta_target\" id=\"meta_target-4019\" value=\"43834\">\n          </div>\n          <div width=\"40%\">\n            <input type=\"hidden\" name=\"meta_price_id\" value=\"43833\">\n            <input type=\"hidden\" name=\"regular_price_id\" value=\"43834\">\n            <input type=\"hidden\" name=\"sale_price\" value=\"9\">\n            <input type=\"hidden\" name=\"base_price\" value=\"9\">\n            <input type=\"submit\" id=\"meta-submit-43834\" name=\"meta-submit-43834\" value=\"Update\">\n            <img src=\"bx_loader.gif\" alt=\"Processing Poster Update\" id=\"loading-4019\" class=\"loading\">\n            <img src=\"success.png\" alt=\"Poster Update Success\" id=\"success-4019\" class=\"success\">\n            <img src=\"error.png\" alt=\"Poster Update Success\" id=\"error-4019\" class=\"error\">\n          </div>\n        </div>\n      </form>\n      <form action=\"\" id=\"meta-form-43839\" class=\"poster-meta-form\" novalidate=\"novalidate\">\n        <div class=\"size-24x36 poster-tr meta-4020 meta-row-wrap\">\n          <div width=\"15%\"><span>24x36<input type=\"hidden\" name=\"base_amount\" id=\"base_amount-4020\" value=\"12\"></span></div>\n          <input type=\"hidden\" value=\"43840\" class=\"meta_price_id\" id=\"poster_price-4020\" name=\"poster_price-4020\">\n          <div width=\"15%\"><span>12.00<input type=\"hidden\" class=\"base-price\" name=\"base_price\" id=\"base_price-4020\" value=\"12.00\"></span></div>\n          <div width=\"15%\"><span><input type=\"number\" class=\"size-sale-price tooltipstered\" id=\"reg_price_4020\" name=\"reg_price_4020\" value=\"14.00\" min=\"12\" step=\"0.01\" target=\"4020\"></span></div>\n          <div width=\"15%\">\n            <span id=\"profit-4020\" class=\"profit-tag\">2.00</span>\n            <input type=\"hidden\" name=\"meta_target\" id=\"meta_target-4020\" value=\"43841\">\n          </div>\n          <div width=\"40%\">\n            <input type=\"hidden\" name=\"meta_price_id\" value=\"43840\">\n            <input type=\"hidden\" name=\"regular_price_id\" value=\"43841\">\n            <input type=\"hidden\" name=\"sale_price\" value=\"14\">\n            <input type=\"hidden\" name=\"base_price\" value=\"12\">\n            <input type=\"submit\" id=\"meta-submit-43841\" name=\"meta-submit-43841\" value=\"Update\">\n            <img src=\"bx_loader.gif\" alt=\"Processing Poster Update\" id=\"loading-4020\" class=\"loading\">\n            <img src=\"success.png\" alt=\"Poster Update Success\" id=\"success-4020\" class=\"success\">\n            <img src=\"error.png\" alt=\"Poster Update Success\" id=\"error-4020\" class=\"error\">\n          </div>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n\nJavaScript\n\njQuery(document).ready(function () {\n    //initialize tooltipster on text input elements\n    jQuery('input[type=\"number\"]').tooltipster({ //find more options on the tooltipster page\n        trigger: 'custom', // default is 'hover' which is no good here\n        position: 'top',\n        animation: 'grow'\n    });\n\n    jQuery('.poster-meta-form').validate({ // initialize the plugin\n        submitHandler: function (form) { \n            var sale_price_val = jQuery(form).find(\"input[name=sale_price]\").val();\n            var base_price_val = jQuery(form).find(\"input[name=base_price]\").val();\n            var meta_hidden_id = jQuery(form).find(\"input[name=meta_price_id]\").val();\n            var meta_price_id = jQuery(form).find(\"input[name=regular_price_id]\").val();\n            var parent_form = jQuery(form);\n\n            jQuery.ajax({\n                type: \"POST\",\n                url: ajax_url,\n                data:{\n                    action: 'call_back_function',\n                    sale_price: sale_price_val,\n                    meta: meta_hidden_id,\n                    meta_price: meta_price_id\n                },\n                cache:  false,\n                beforeSend: function() {\n                    parent_form.find(\".loading\").show();\n                },\n                success: function(data) {\n                    if ( data == 0 ) {\n                        parent_form.find(\".loading\").hide();\n                        parent_form.find(\".success\").show();\n                        setTimeout(function(){\n                            parent_form.find(\".success\").fadeOut('slow');\n                        }, 2000);\n                    } else{\n                        parent_form.find(\".loading\").hide();\n                        parent_form.find(\".error\").show();\n                        setTimeout(function(){\n                            parent_form.find(\".error\").fadeOut('slow');\n                        }, 2000);\n                    };\n                }\n            });\n            return false;\n        }\n    });\n    jQuery('.size-sale-price').each(function() {\n            jQuery(this).rules('add', {\n                min: function(element){\n                    return jQuery(element).attr('min');\n                },\n                required: true,\n                messages: {\n                    number:  \"Sale Price can not be less than Base Price!\"\n                }\n            });\n        });\n\n});\n\n\nConsole Error\n\n\n  Uncaught TypeError: Cannot read property 'settings' of undefined\n      at a.fn.init.rules (jquery.validate.min.js?ver=4.7.4:4)\n      at HTMLInputElement. (social-media-sync-public.js?ver=1.0.0:534)\n      at Function.each (jquery.js?ver=1.12.4:2)\n      at a.fn.init.each (jquery.js?ver=1.12.4:2)\n      at HTMLDocument. (social-media-sync-public.js?ver=1.0.0:532)\n      at i (jquery.js?ver=1.12.4:2)\n      at Object.fireWith [as resolveWith] (jquery.js?ver=1.12.4:2)\n      at Function.ready (jquery.js?ver=1.12.4:2)\n      at HTMLDocument.K (jquery.js?ver=1.12.4:2)\n\n    "
+    }
+  },
+  {
+    "title": "vector.h in dll not useable in my application",
+    "link": "http://stackoverflow.com/questions/43693338/vector-h-in-dll-not-useable-in-my-application",
+    "details": {
+      "title": "vector.h in dll not useable in my application",
+      "question": "\r\n\r\nI'm new here...and I have a problem in my application.\nI have written a dll, in which i use a struct and a vector. In the vector i want put my struct instances. So far it's everything fine.\n\nThe dll ist imported in my application. And now i want to use the vector of my dll also in the application, but this doesn't work.\n\n#include <fstream>\n#include <string>\n#include <vector>\n\n\nusing namespace std;\n\n#define EXPORT extern \"C\" __declspec(dllexport)\n\n\n\nstruct csvDatei_Para {\n    string PID;\n    string Beschreibung;\n    string Byteanzahl;\n    string Min;\n    string Max;\n    string Einheit;\n    string Wertetab;\n};\n\nstruct globals {\n    static globals& getInstance()\n    {\n        static globals instance;\n        return instance;\n    }\n    std::vector<csvDatei_Para> _csvContent;\n};\n\n\nDoes anybody know, why it's not working and give me a solution?\n\nThanks :)\n    "
+    }
+  },
+  {
+    "title": "modify three.js pointerlock controls example to make it fly",
+    "link": "http://stackoverflow.com/questions/43693337/modify-three-js-pointerlock-controls-example-to-make-it-fly",
+    "details": {
+      "title": "modify three.js pointerlock controls example to make it fly",
+      "question": "\r\n\r\nI am trying to modify this three.js pointerlock example to make the player fly\n\nWhat I am trying to achieve is:\n\n\nremove gravity (done)\nremove jump (done)\nfly up or down on y axis on mouse move, just like it is already for left/right mouse movement on x axis (not working)\n\n\nI modified the animate() function in this way:\n\nif ( controlsEnabled ) {\n\n    var time = performance.now();\n    var delta = ( time - prevTime ) / 1000;\n\n    velocity.x -= velocity.x * 10.0 * delta;\n    velocity.y -= velocity.y * 10.0 * delta;\n    velocity.z -= velocity.z * 10.0 * delta;\n\n    if ( moveLeft ) velocity.x -= 400.0 * delta;\n    if ( moveRight ) velocity.x += 400.0 * delta;\n\n    if ( moveUp ) velocity.y += 400.0 * delta;\n    if ( moveDown ) velocity.y -= 400.0 * delta;\n\n    if ( moveForward ) velocity.z -= 400.0 * delta;\n    if ( moveBackward ) velocity.z += 400.0 * delta;\n\n    controls.getObject().translateX( velocity.x * delta );\n    controls.getObject().translateY( velocity.y * delta );\n    controls.getObject().translateZ( velocity.z * delta );\n\n    prevTime = time;\n\n}\n\n\nand I assigned up/down keys for y movement (just for test) and it properly goes up and down...\n\nThe problem is that moving the mouse up/down does not make the player flying up/down, like it already is for the x axis... (moving mouse left/right makes the player flying left/right)\n\nI cannot figure out how to make it working also for the y axis\n    "
+    }
+  },
+  {
+    "title": "Match string in shortcode using regex",
+    "link": "http://stackoverflow.com/questions/43693336/match-string-in-shortcode-using-regex",
+    "details": {
+      "title": "Match string in shortcode using regex",
+      "question": "\r\n\r\nI have this shortcode in my page content in Wordpress. I need to get the value of \"layout\" and the value from \"slug\"\n\nSo I need the values: listing & aircraft extracted from the string\n\nI am looking for the lowest possible hit to performance. I am trying to get these values from the save_post hook so I don't have access to the normal shortcode $atts parameter.\n\n'[vc_row][vc_column width=\"2/3\"]\n\n[cpt_categories layout=\"listing\" view=\"grid\" items_per_row=\"4\" orderby=\"title\" order=\"ASC\" slug=\"aircraft\"]\n\n[/vc_column][vc_column width=\"1/3\"][/vc_column][/vc_row]'\n\n\nWhen using the native WP function shortcode_parse_atts I get close but there are some issues:\n\n$atts = shortcode_parse_atts($post->post_content);\nvar_dump($atts);\narray \n  0 =>  '[vc_row][vc_column' \n  1 =>  'width=\"2/3\"][cpt_categories' \n  'layout' =>  'listing' \n  'view'   =>  'grid' \n  'items_per_row' =>  '4' \n  'orderby' =>  'title' \n  'order' =>  'ASC' \n  2 =>  'slug=\"aircraft\"][/vc_column][vc_column' \n  3 =>  'width=\"1/3\"][/vc_column][/vc_row]' \n\n    "
+    }
+  },
+  {
+    "title": "AJAX call not working in some mobile chrome browsers",
+    "link": "http://stackoverflow.com/questions/43693334/ajax-call-not-working-in-some-mobile-chrome-browsers",
+    "details": {
+      "title": "AJAX call not working in some mobile chrome browsers",
+      "question": "\r\n\r\nThis is the jquery code\n\n$( \"input#go\" ).click(function()\n{\nif($(\"input#datepicker\").val()!=\"\")\n{\n    $.ajax(\n    {\n        method: \"POST\",\n        url: \"http://acoroster.rf.gd/roster.php\",\n        data: { date : $(\"input#datepicker\").val()},\n        dataType: 'json',\n        cache: false,\n        success : function(result)\n        {\n            //code\n        },\n    });\n}\nelse\n{\n\n}\n\n});\n\n\nThis work perfectly in some mobile chrome browsers. but in some mobile chrome browsers its doesnt work\n    "
+    }
+  },
+  {
+    "title": "start_time, end_time does not match the format H:i on form data Edit",
+    "link": "http://stackoverflow.com/questions/43693330/start-time-end-time-does-not-match-the-format-hi-on-form-data-edit",
+    "details": {
+      "title": "start_time, end_time does not match the format H:i on form data Edit",
+      "question": "\r\n\r\nI am new to laravel and facing a problem with date_format:H:i|nullable|max:8 validation in my Controller. It is working fine first time (with new record) but showing following message \n\n\n  Following errors occurred:\n  \n  The start time does not match the format H:i. The end time does not\n  match the format H:i.\n\n\nwhen Editing data in edit form. When I leave the time fields unchanged (with other fields changed or unchanged). But works fine if time fields are edited(changed).\n\nI am using <input type=\"time\"> in my form.\n\nThe data type is Time in MySQl table. It shows \"11:59 PM\" in the edit view. And when submitted it submits something like \"23:59\".\n\nI have googled but found not information though a similar question on other site but without any answer.\n\nIt will be nice if you can answer my question. Thanks in advance.\n\nZaki\n    "
+    }
+  },
+  {
+    "title": "How to stream text output to a webview",
+    "link": "http://stackoverflow.com/questions/43693328/how-to-stream-text-output-to-a-webview",
+    "details": {
+      "title": "How to stream text output to a webview",
+      "question": "\r\n\r\nI am using python2.7 to create a log file to a long running series of steps, basically as each step in my list of things to do is completed I write some output to a file, its very much like what you'd see in a continuous integration log file. Instead of logging to a file and having a user open the file, I want to use a web browser and display all the information that I care to in what will look like a console window i.e:\n\n\nHow do I create such a log window so the contents of my log file are visible in the browser. \nI had intended to use CherryPy as a webserver, but I am not sure how to create that UI component that looks like a console window or how to get content into it\n\nAny suggestions as to where to begin?\n    "
+    }
+  },
+  {
+    "title": "Best way to download image (Likely to be changed later on) from Webservice to android",
+    "link": "http://stackoverflow.com/questions/43693326/best-way-to-download-image-likely-to-be-changed-later-on-from-webservice-to-an",
+    "details": {
+      "title": "Best way to download image (Likely to be changed later on) from Webservice to android",
+      "question": "\r\n\r\nGood day,\nI have an application that is divided into categories and each category is related to an image. The category and the image are likely to be changed randomly.\nWhat would be the best way to deal with the image downloading :\n\n1- At each opening of the application , using BitmapFactory.decodeStream(url.openConnection().getInputStream());\n\n2- Creating a folder inside android, and downloading the images inside them for one time, then updating them each time there's a change.\n\n3- Downloading the images and putting them inside a Database, then then updating them each time there's a change.\n\nOr there's a better way ?\n\nRegards.\n    "
+    }
+  },
+  {
+    "title": "uploaded s3 image url automatically stored into mysql databse using python",
+    "link": "http://stackoverflow.com/questions/43693324/uploaded-s3-image-url-automatically-stored-into-mysql-databse-using-python",
+    "details": {
+      "title": "uploaded s3 image url automatically stored into mysql databse using python",
+      "question": "\r\n\r\nI dont know how to put the URLs of the uploaded s3 bucket  images into a MySQL database.this is my python script. i didn't get any error but url will not be stored into my databse\n\nimport sys, os, Image\nimport boto3\nfrom boto.s3.connection import S3Connection\nimport MySQLdb\n\ndb = MySQLdb.connect(host= \"localhost\",user=\"root\",passwd=\"\",\n                  db=\"urlfromS3\")\ncursor = db.cursor()\n\nclient = boto3.client('s3')\nAWS_KEY = '*******'\nAWS_SECRET = '*******'\naws_connection = S3Connection(AWS_KEY, AWS_SECRET)\nbucket = aws_connection.get_bucket('naveen')\ni=0\nfor img in bucket.get_all_keys():\n    ext = [\".JPG\", \".jpg\", \".png\", \".PNG\"]\n    if img.name.endswith(tuple(ext)) and img.size > 1*1024:\n        i = i+1   \n        imgID = i\n        iname = img.name\n        url = img.generate_url()\n        print url\n        query = 'INSERT INTO URL (url) VALUES (%s)'\n        cursor.execute(query, [url])\n        db.commit()\ndb.close()\n    "
+    }
+  },
+  {
+    "title": "invalid type int[int] for an array subscript",
+    "link": "http://stackoverflow.com/questions/43693323/invalid-type-intint-for-an-array-subscript",
+    "details": {
+      "title": "invalid type int[int] for an array subscript",
+      "question": "\r\n\r\n#include<iostream>\n#include<fstream>\n\nusing namespace std;\nvoid getdata (string [], int [][2]);\n\nint main ()\n{\nint  temperature[12][2] = {0}, lowest, highest, averagelowest, averagehighest;\nstring month [12];\ngetdata(month, temperature);\n\n\nreturn 0;\n}\n\nvoid getdata (string &b, int &a)\n{\n    ifstream inputFile;\n\ninputFile.open(\"temperature.txt\");\n    for (int i=0; i<12; i++)\n        for (int j=0; j<2; j++)\n            inputFile >> b[i] >> a[i][j] ;\n        return ;\n\n\nCan you please help me to solve this problem?\nWhenever I run it, it keeps giving me the error message.\n    "
+    }
+  },
+  {
+    "title": "angular 2/4 make route standalone",
+    "link": "http://stackoverflow.com/questions/43693321/angular-2-4-make-route-standalone",
+    "details": {
+      "title": "angular 2/4 make route standalone",
+      "question": "\r\n\r\nis there a way i can make the path login and logincomponent load as standalone and not in need for a <router-outlet></router-outlet> ?\n\nbecause AppComponent currently loads the template in it, then i will show sub-pages with  <router-outlet></router-outlet>, but i dont want login to be a child, i want it to be a standalone page.\n\nEDIT: \nAll i want is for the login page to not go trough the app.component.html, instead i want it to go trough another template instead, cause app.component.html holds my logged in template.\n\n   import { BrowserModule } from '@angular/platform-browser';\n    import { NgModule } from '@angular/core';\n    import { FormsModule } from '@angular/forms';\n    import { HttpModule } from '@angular/http';\n    import { RouterModule } from '@angular/router';\n\n\n\nimport { AppComponent } from './app.component';\nimport { CoreService } from './core.service';\n\nimport { LoginhandlerComponent } from './loginhandler/loginhandler.component';\nimport { CoreComponent } from './core/core.component';\nimport { MinionsComponent } from './minions/minions.component';\nimport { RegistrationComponent } from './registration/registration.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    LoginhandlerComponent,\n    CoreComponent,\n    MinionsComponent,\n    RegistrationComponent\n  ],\n  imports: [\n    BrowserModule,\n    FormsModule,\n    HttpModule,\n    RouterModule.forRoot([\n      {\n        path : 'minions',\n        component: MinionsComponent\n\n      },\n      {\n        path: 'login',\n        component: LoginhandlerComponent\n      }\n        ]\n\n    )\n  ],\n  providers: [CoreService, ],\n  bootstrap: [AppComponent, ]\n})\nexport class AppModule { }\n\n\napp.component: \n\n<div>\n\n</div>\n\n\n<router-outlet></router-outlet>\n\n    "
+    }
+  }
+]

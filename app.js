@@ -34,7 +34,7 @@ start()
 async function start() {
   try {
     const connection = await mysql.createConnection({host:config.mysql_host, user: config.mysql_user, password: config.mysql_password, database: config.mysql_database})
-    const [rows, fields] = await connection.query('SELECT productName FROM `cosmetic_list` WHERE is_off= 0 AND barcode IS NULL ORDER BY provinceConfirm DESC')
+    const [rows, fields] = await connection.query('SELECT product_name FROM `products` ORDER BY id DESC')
     // console.log(rows)
 
     // const productName = '嘉丝肤缇淡纹赋活感温凝胶眼膜'
@@ -44,7 +44,7 @@ async function start() {
     while(rows.length > 0) {
       // console.log(results.length)
       // console.log(results.splice(0, 1))
-      const productName = rows.splice(0, 1)[0]['productName']
+      const productName = rows.splice(0, 1)[0]['product_name']
       const pname = entities.decode(productName)
       const keyword = urlencode(pname, 'gbk')
       console.log(pname)
@@ -56,7 +56,7 @@ async function start() {
       if (!_.isEmpty(products) && pname == products[0][1]) {
         console.log('##########')
         console.log(products[0][1])
-        await connection.query("UPDATE `cosmetic_list` SET `barcode` = '"+ products[0][0] +"', `spec_model` = '"+ products[0][2] +"' ,`desc` = '"+ products[0][3] +"' WHERE `productName` = '"+ productName +"'")
+        // await connection.query("UPDATE `cosmetic_list` SET `barcode` = '"+ products[0][0] +"', `spec_model` = '"+ products[0][2] +"' ,`desc` = '"+ products[0][3] +"' WHERE `productName` = '"+ productName +"'")
       }
     }
   } catch (e) {
@@ -72,11 +72,13 @@ function sendRequest(url, keyword) {
     .charset('gbk')
     .set('user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3044.0 Safari/537.36')
     .set('accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8')
-    .set('Cookie', 'ASP.NET_SessionId=prmiod45rlftxu455fakg4uq; Hm_lvt_6687bbab0a48629fa014a8b18cff55a9=1491815447,1491815453,1491816235,1492094480; Hm_lpvt_6687bbab0a48629fa014a8b18cff55a9=' + parseInt(Date.now/1000))
+    .set('Cookie', 'ASP.NET_SessionId=c44j10eq1npepw553tlyrdvp')
+    // .set('Cookie', 'ASP.NET_SessionId=c44j10eq1npepw553tlyrdvp; Hm_lvt_6687bbab0a48629fa014a8b18cff55a9=1491815447,1491815453,1491816235,1492094480; Hm_lpvt_6687bbab0a48629fa014a8b18cff55a9=' + parseInt(Date.now/1000))
+    .set('Host', 'search.anccnet.com')
     .retry(5)
     .then((res) => {
       // return res.text
-      console.log(res.text)
+      console.log(res)
       let $ = cheerio.load(res.text, { decodeEntities: false})
       // let $result = $('.mainlist a .texts').children('h3').text()
       let $result = $('#results .result .p-info') // .children('dd')

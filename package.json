@@ -15,10 +15,12 @@
     "sleep": "^5.1.1",
     "superagent": "^3.5.2",
     "superagent-charset": "^1.1.1",
+    "superagent-proxy": "^1.0.2",
     "urlencode": "^1.1.0"
   },
   "devDependencies": {
     "crawler": "^1.0.4",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "x-ray": "^2.3.2"
   }
 }
